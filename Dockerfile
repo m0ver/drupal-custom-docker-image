@@ -11,4 +11,4 @@ RUN { \
     echo 'file_uploads = On'; \
     echo 'upload_max_filesize = 64M'; \
     echo 'max_file_uploads = 20'; \
-} > /usr/local/etc/php/conf.d/codekoalas-settings.ini
+} > /usr/local/etc/php/conf.d/php-settings.ini
