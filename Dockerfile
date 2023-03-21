@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y libssh2-1-dev libssh2-1
 RUN pecl install ssh2-1.3.1 && docker-php-ext-enable ssh2
 
 RUN { \
-    echo 'memory_limit = 196M'; \
+    echo 'memory_limit = 256M'; \
     echo 'display_errors = Off'; \
     echo 'post_max_size = 64M'; \
     echo 'file_uploads = On'; \
